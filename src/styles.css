@@ -1,0 +1,43 @@
+/* Estilos ultra básicos y simples */
+/* Resetear cualquier estilo de Bootstrap que pueda interferir */
+.pokemon-card {
+    border: 1px solid #ccc !important;
+    padding: 15px !important;
+    margin: 10px 0 !important;
+    text-align: center !important;
+    background-color: #fafafa !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+}
+
+.pokemon-image {
+    width: 80px !important;
+    height: 80px !important;
+    display: block !important;
+    margin: 0 auto 10px auto !important;
+    background: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+.pokemon-name {
+    font-size: 14px !important;
+    margin: 5px 0 !important;
+    color: #333 !important;
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+}
+
+.pokemon-id {
+    color: #666 !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+}
+
+/* Asegurar que el header sea simple */
+h1 {
+    color: #333 !important;
+    background: none !important;
+    background-color: transparent !important;
+}
